@@ -1,0 +1,28 @@
+module work_zyq(CLK,keystat,dataout);
+	input CLK;
+	input [3:0]keystat;
+	output [31:0]dataout;
+	reg [3:0]prestat;
+	reg [31:0]dataout;
+	initial 
+	begin
+		dataout = 32'b00000000000000000000000000000000;
+		prestat = 5'h10;
+	end
+	always@(posedge CLK)
+	begin
+		if(prestat!=keystat)
+		begin
+			prestat <= keystat;
+			case(keystat)
+				4'h1,4'h2,4'h3,4'h4,4'h5,4'h6,4'h7,4'h8,4'h9:
+				begin
+					dataout[31:4] = dataout[27:0];
+					dataout[3:0] = keystat;
+				end
+				default:;
+			endcase
+		end
+		
+	end
+endmodule

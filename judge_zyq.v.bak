@@ -1,0 +1,28 @@
+module judge_zyq(CLK,row,col,out);
+	input [3:0] row;
+	input [3:0] col;
+	input CLK;
+	output [3:0] out;
+	reg [3:0]out;
+	always @(posedge CLK)
+	begin
+		case({row,col})
+			8'b11101110:out = 4'b0001;
+			8'b11101101:out = 4'b0010;
+			8'b11101011:out = 4'b0011;
+			8'b11100111:out = 4'b1010;
+			8'b11011110:out = 4'b0100;
+			8'b11011101:out = 4'b0101;
+			8'b11011011:out = 4'b0110;
+			8'b11010111:out = 4'b1011;
+			8'b10111110:out = 4'b0111;
+			8'b10111101:out = 4'b1000;
+			8'b10111011:out = 4'b1001;
+			8'b10110111:out = 4'b1100;
+			8'b01111110:out = 4'b1110;
+			8'b01111101:out = 4'b0000;
+			8'b01111011:out = 4'b1111;
+			8'b01110111:out = 4'b1101;
+		endcase
+	end
+endmodule

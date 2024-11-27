@@ -1,0 +1,149 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'dividerbig_zyq:div2|CLK10D'
+Slack : -661.084
+TNS   : -23333.685
+
+Type  : Slow 1100mV 85C Model Setup 'dividersmall_zyq:div1|CLK10D'
+Slack : -2.453
+TNS   : -39.619
+
+Type  : Slow 1100mV 85C Model Setup 'CLK'
+Slack : -2.216
+TNS   : -28.822
+
+Type  : Slow 1100mV 85C Model Hold 'CLK'
+Slack : -2.130
+TNS   : -3.837
+
+Type  : Slow 1100mV 85C Model Hold 'dividerbig_zyq:div2|CLK10D'
+Slack : 0.025
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'dividersmall_zyq:div1|CLK10D'
+Slack : 0.290
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'dividerbig_zyq:div2|CLK10D'
+Slack : -3.545
+TNS   : -221.203
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'dividersmall_zyq:div1|CLK10D'
+Slack : -0.724
+TNS   : -28.646
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLK'
+Slack : -0.724
+TNS   : -15.709
+
+Type  : Slow 1100mV 0C Model Setup 'dividerbig_zyq:div2|CLK10D'
+Slack : -704.984
+TNS   : -24833.391
+
+Type  : Slow 1100mV 0C Model Setup 'CLK'
+Slack : -2.415
+TNS   : -29.075
+
+Type  : Slow 1100mV 0C Model Setup 'dividersmall_zyq:div1|CLK10D'
+Slack : -2.373
+TNS   : -39.428
+
+Type  : Slow 1100mV 0C Model Hold 'CLK'
+Slack : -2.054
+TNS   : -3.586
+
+Type  : Slow 1100mV 0C Model Hold 'dividerbig_zyq:div2|CLK10D'
+Slack : 0.026
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'dividersmall_zyq:div1|CLK10D'
+Slack : 0.270
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'dividerbig_zyq:div2|CLK10D'
+Slack : -3.545
+TNS   : -222.423
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'dividersmall_zyq:div1|CLK10D'
+Slack : -0.724
+TNS   : -28.675
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLK'
+Slack : -0.724
+TNS   : -16.209
+
+Type  : Fast 1100mV 85C Model Setup 'dividerbig_zyq:div2|CLK10D'
+Slack : -269.371
+TNS   : -9507.298
+
+Type  : Fast 1100mV 85C Model Setup 'dividersmall_zyq:div1|CLK10D'
+Slack : -0.779
+TNS   : -8.528
+
+Type  : Fast 1100mV 85C Model Setup 'CLK'
+Slack : -0.592
+TNS   : -5.325
+
+Type  : Fast 1100mV 85C Model Hold 'CLK'
+Slack : -0.992
+TNS   : -1.425
+
+Type  : Fast 1100mV 85C Model Hold 'dividerbig_zyq:div2|CLK10D'
+Slack : -0.309
+TNS   : -2.262
+
+Type  : Fast 1100mV 85C Model Hold 'dividersmall_zyq:div1|CLK10D'
+Slack : 0.062
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'dividerbig_zyq:div2|CLK10D'
+Slack : -1.702
+TNS   : -59.015
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLK'
+Slack : -0.513
+TNS   : -2.386
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'dividersmall_zyq:div1|CLK10D'
+Slack : -0.016
+TNS   : -0.046
+
+Type  : Fast 1100mV 0C Model Setup 'dividerbig_zyq:div2|CLK10D'
+Slack : -258.488
+TNS   : -9109.001
+
+Type  : Fast 1100mV 0C Model Setup 'dividersmall_zyq:div1|CLK10D'
+Slack : -0.666
+TNS   : -7.003
+
+Type  : Fast 1100mV 0C Model Setup 'CLK'
+Slack : -0.591
+TNS   : -4.296
+
+Type  : Fast 1100mV 0C Model Hold 'CLK'
+Slack : -0.941
+TNS   : -1.313
+
+Type  : Fast 1100mV 0C Model Hold 'dividerbig_zyq:div2|CLK10D'
+Slack : -0.318
+TNS   : -2.953
+
+Type  : Fast 1100mV 0C Model Hold 'dividersmall_zyq:div1|CLK10D'
+Slack : 0.045
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'dividerbig_zyq:div2|CLK10D'
+Slack : -1.702
+TNS   : -57.056
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLK'
+Slack : -0.517
+TNS   : -2.458
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'dividersmall_zyq:div1|CLK10D'
+Slack : 0.005
+TNS   : 0.000
+
+------------------------------------------------------------

@@ -1,0 +1,3 @@
+Warning (10268): Verilog HDL information at dividerbig_zyq.v(6): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at get_key_zyq.v(20): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at work_zyq.v(21): always construct contains both blocking and non-blocking assignments
